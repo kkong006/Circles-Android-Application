@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.archana.citrusapp.CreateEventActivity"
+    android:background="@drawable/slidebgrd">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_create_event" />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/TitleText"
+        android:width="250dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="85dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title: "
+        android:id="@+id/titleView"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="29sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/DateText"
+        android:width="250dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="85dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Date: "
+        android:id="@+id/dateView"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="29sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/TimeText"
+        android:width="250dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="87dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time: "
+        android:id="@+id/TimeView"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="29sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Location: "
+        android:id="@+id/LocationView"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="29sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/LocationText"
+        android:width="200dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="137dp" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/descriptionText"
+        android:lines="5"
+        android:width="310dp"
+        android:height="500sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="30dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Description: "
+        android:id="@+id/DescriptionView"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="32sp"
+        />
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/buttonevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Event"
+        android:width="150dp"
+        android:height="60sp"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="110dp"
+         />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
