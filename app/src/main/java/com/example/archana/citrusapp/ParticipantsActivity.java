@@ -63,43 +63,7 @@ public class ParticipantsActivity extends AppCompatActivity {
             m3.setText(name + ": " + LoginActivity.person.messages.get(numMess - 3));
         }
 
-        /*
-        Intent myIntent = getIntent();
-        TextView mText = (TextView) findViewById(R.id.Titlename);
-        mText.setTextSize(30);
-        mText.setText(myIntent.getStringExtra("myExtra1"));
 
-        Intent myIntent2 = getIntent();
-        TextView mText2 = (TextView) findViewById(R.id.dateimported);
-        mText2.setTextSize(30);
-        mText2.setText(myIntent2.getStringExtra("myExtra2"));
-
-        Intent myIntent3 = getIntent();
-        TextView mText3 = (TextView) findViewById(R.id.timeimported);
-        mText3.setTextSize(30);
-        mText3.setText(myIntent3.getStringExtra("myExtra3"));
-
-        Intent myIntent4 = getIntent();
-        TextView mText4 = (TextView) findViewById(R.id.locationimported);
-        mText4.setTextSize(30);
-        mText4.setText(myIntent4.getStringExtra("myExtra4"));
-
-        Intent myIntent5 = getIntent();
-        TextView mText5 = (TextView) findViewById(R.id.descriptionimported);
-        mText5.setTextSize(30);
-        mText5.setText(myIntent5.getStringExtra("myExtra5"));
-
-        Intent intent6 = new Intent();
-        EditText editText = (EditText) findViewById(R.id.descriptionText);
-        String message = editText.getText().toString();
-        intent6.putExtra("myExtra6", message);
-
-        Intent myIntent7 = getIntent();
-        TextView mTextD = (TextView) findViewById(R.id.descriptionText);
-        mTextD.setTextSize(30);
-        mTextD.setText(myIntent6.getStringExtra("myExtra7"));*/
-
-        //printText = mTextD.getText().toString();
 
 
         Button btnNew = (Button) findViewById(R.id.enterMessage);
